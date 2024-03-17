@@ -1,5 +1,6 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo from "@/components/modal-video";
+import Image from "next/image";
+
+import Wechat from "@/public/images/wechat.png";
 
 export default function Hero() {
   return (
@@ -43,7 +44,7 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-32 pb-4 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
@@ -56,6 +57,13 @@ export default function Hero() {
             >
               专业侦探公司，提供出轨调查、婚姻调查等服务。保护隐私，进行数字取证，解决家庭问题
             </p>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center items-center mb-4">
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a className="btn text-white w-full sm:w-auto text-4xl">
+                  19181999818
+                </a>
+              </div>
+            </div>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
@@ -65,15 +73,10 @@ export default function Hero() {
                   联系我们
                 </a>
               </div>
-              {/* <div data-aos="fade-up" data-aos-delay="600">
-                <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  href="#0"
-                >
-                  Learn more
-                </a>
-              </div> */}
             </div>
+            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mt-8">
+              <Image src={Wechat} width={148} height={148} alt="wechat" />
+            </div> */}
           </div>
         </div>
       </div>
