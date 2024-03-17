@@ -78,7 +78,7 @@ export default function Header() {
                   href="/"
                   className="font-medium hover:text-purple-600 text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  191 8199 9818
+                  19181999818
                 </Link>
               </li>
               {/* <li>

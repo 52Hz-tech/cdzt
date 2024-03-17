@@ -57,7 +57,7 @@ export default function Newsletter() {
             <form className="w-full lg:w-1/2">
               <div className="flex items-center sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <p className="appearance-none bg-purple-700 px-4 py-3 mb-2 mr-10 sm:mb-0 sm:mr-2 text-white text-lg">
-                  191 8199 9818
+                  19181999818
                 </p>
                 <div className="ml-6">
                   <Image src={Wechat} width={148} height={148} alt="wechat" />

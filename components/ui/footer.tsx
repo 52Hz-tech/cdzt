@@ -194,7 +194,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:flex md:items-center md:justify-center">
+          <div className="md:flex md:items-center md:justify-center flex items-center justify-center">
             {/* Social links */}
             {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
