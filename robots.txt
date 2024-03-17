@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /_next/   # 不允许搜索引擎爬取_next/目录下的内容
+Disallow: /api/   # 不允许搜索引擎爬取/api/目录下的内容
+Disallow: /public/   # 不允许搜索引擎爬取/public/目录下的内容
+Disallow: /static/   # 不允许搜索引擎爬取/static/目录下的内容
+
+User-agent: Googlebot   # 限制Googlebot爬取频率
+Crawl-delay: 10   # 设置爬取延迟为10秒
+
+Sitemap: https://www.cdzt.tech/sitemap.xml   # 指定网站地图文件的位置
