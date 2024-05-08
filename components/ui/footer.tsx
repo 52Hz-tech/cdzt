@@ -277,7 +277,14 @@ export default function Footer() {
             </ul> */}
 
             <div className="text-gray-400 text-sm mr-4">
-              &copy; 2024 蜀ICP备2024047553号
+              &copy;
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                蜀ICP备2024047553号-1
+              </a>
             </div>
           </div>
         </div>
